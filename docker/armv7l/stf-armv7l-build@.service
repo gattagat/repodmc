@@ -1,0 +1,13 @@
+[Unit]
+Description=Build opendmc/dmc %I for armv7l
+After=docker.service
+Requires=docker.service
+ConditionArchitecture=arm
+Requires=dmc-armv7l-baseimage@%i.service
+After=dmc-armv7l-baseimage@%i.service
+
+[Service]
+Type=oneshot
+User=dmc-armv7l
+WorkingDirectory=/home/dmc-armv7l/repo-%i
+ExecStart=/usr/bin/docker build -f docker/armv7l/Dockerfile -t opendmc/dmc-armv7l:%i .

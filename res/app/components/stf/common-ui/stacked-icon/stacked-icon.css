@@ -1,0 +1,12 @@
+.dmc-stacked-icon .fa-square {
+  font-size: 22px !important;
+}
+
+.dmc-stacked-icon.fa-stack {
+  height: 24px !important;
+  width: 21px !important;
+}
+
+.dmc-stacked-icon .fa-stack-1x {
+  line-height: 24px !important;
+}

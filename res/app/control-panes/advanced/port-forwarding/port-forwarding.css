@@ -1,0 +1,22 @@
+.dmc-port-forwarding {
+
+}
+
+.dmc-port-forwarding .padded {
+  padding-top: 0;
+}
+
+.dmc-port-forwarding table {
+  white-space: nowrap;
+}
+
+.dmc-port-forwarding .port-forwarding-image {
+  text-align: center;
+  color: #b7b7b7;
+  padding-bottom: 4px;
+}
+
+.dmc-port-forwarding .port-forwarding-image .fa-arrow-right {
+  vertical-align: 38%;
+  margin-right: 6px;
+}

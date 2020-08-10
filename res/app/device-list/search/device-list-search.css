@@ -1,0 +1,9 @@
+.dmc-device-list .device-search {
+  width: 20em;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.dmc-device-list .filter-out {
+  display: none;
+}

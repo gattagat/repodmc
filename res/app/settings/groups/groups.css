@@ -1,0 +1,107 @@
+/**
+* Copyright © 2019 code initially contributed by Orange SA, authors: Denis Barbaron - Licensed under the Apache license 2.0
+**/
+
+.dmc-groups .selectable {
+  user-select: text;
+}
+
+.dmc-pager-groups-total-items {
+  margin-top: 5px;
+}
+
+.dmc-groups .groups-header {
+  margin-left: 10px;
+}
+
+.dmc-groups .group-users-header, .group-devices-header {
+  margin-bottom: 15px;
+}
+
+.dmc-groups .btn-check-name, .btn-group-devices-action, .btn-group-users-action {
+  margin-top: 5px;
+}
+
+.dmc-groups .groups-action {
+  margin-top: 10px;
+}
+
+.dmc-groups .group-schedule-item {
+  margin: 0px 10px 15px 15px;
+}
+
+.dmc-groups td,th {
+  padding: 0px;
+  white-space: nowrap;
+  font-size: small;
+}
+
+.dmc-groups .group-list-icon {
+  margin-right: 10px;
+}
+
+.dmc-groups .group-list-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.dmc-groups .group-span-label, .group-conflicts {
+  margin-left: 10px;
+}
+
+.dmc-groups .group-span-label-error {
+  margin-left: 10px;
+  color: #FF2D55;
+}
+
+.dmc-groups .group-span-label-warning {
+  margin-left: 10px;
+  color: #FFA101;
+}
+
+.dmc-groups .group-span-label-success {
+  margin-left: 10px;
+  color: #60c561;
+}
+
+.dmc-groups input.ng-invalid {
+  border-color: red;
+}
+
+.dmc-groups .groups-list a.link {
+  padding: 0px;
+  border-bottom: none;
+  color: #167FFC;
+}
+
+.dmc-groups .groups-list .group-line {
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.dmc-groups .groups-list .group-line.group-actions {
+  padding-bottom: 23px;
+}
+
+.dmc-groups .groups-list .heading.group-action-body {
+  margin-top: 22px;
+}
+
+.dmc-groups .group-list-details {
+  display: inline-block;
+}
+
+.dmc-groups .group-list-name {
+  color: #007aff;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 2px 0 6px;
+}
+
+.dmc-groups .group-list-id {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 10px;
+  margin-bottom: 2px;
+  color: #999999;
+  font-weight: 300;
+}

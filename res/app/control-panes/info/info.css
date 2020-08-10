@@ -1,0 +1,21 @@
+
+.dmc-info .table.table-infocard thead > tr > th,
+.dmc-info .table.table-infocard tbody > tr > th,
+.dmc-info .table.table-infocard tfoot > tr > th,
+.dmc-info .table.table-infocard thead > tr > td,
+.dmc-info .table.table-infocard tbody > tr > td,
+.dmc-info .table.table-infocard tfoot > tr > td {
+  border-top: 0;
+}
+
+.dmc-info .table-infocard tbody > tr > td:first-child {
+  text-align: right;
+  margin-right: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.dmc-info .progress {
+  margin-bottom: 0;
+  height: 15px;
+}

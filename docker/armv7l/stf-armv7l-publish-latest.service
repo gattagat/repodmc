@@ -1,0 +1,12 @@
+[Unit]
+Description=Publish opendmc/dmc master as latest for armv7l
+After=docker.service
+Requires=docker.service
+ConditionArchitecture=arm
+Requires=dmc-armv7l-publish@master.service
+After=dmc-armv7l-publish@master.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker tag opendmc/dmc-armv7l:master opendmc/dmc-armv7l:latest
+ExecStart=/usr/bin/docker push opendmc/dmc-armv7l:latest

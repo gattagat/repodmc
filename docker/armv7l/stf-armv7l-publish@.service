@@ -1,0 +1,11 @@
+[Unit]
+Description=Publish opendmc/dmc %I for armv7l
+After=docker.service
+Requires=docker.service
+ConditionArchitecture=arm
+Requires=dmc-armv7l-build@%i.service
+After=dmc-armv7l-build@%i.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker push opendmc/dmc-armv7l:%i

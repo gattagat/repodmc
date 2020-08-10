@@ -1,0 +1,23 @@
+.dmc-activity .activity-list .activity-date,
+.dmc-activity .activity-list .activity-buttons {
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.dmc-activity .activity-list li:hover .activity-date,
+.dmc-activity .activity-list li:hover .activity-buttons {
+  opacity: 1;
+}
+
+.dmc-activity .activity-title {
+  display: inline-block;
+}
+
+.dmc-activity .activity-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.dmc-activity {
+  background: #e8e8e8;
+}

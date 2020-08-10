@@ -1,0 +1,26 @@
+.dmc-apps .icon-title {
+  font-size: 12px;
+  width: 70px;
+}
+
+.dmc-apps .icon-app {
+  margin: 0;
+  text-align: center;
+}
+
+.dmc-apps .heading .icon-app {
+  margin-top: -8px;
+}
+
+.dmc-apps .icon-app:hover .fa {
+  color: #fff;
+}
+
+.dmc-apps .heading .icon-app .fa {
+  font-size: 19px !important;
+  line-height: 14px !important;
+}
+
+.dmc-apps .padded {
+  padding-bottom: 8px;
+}
