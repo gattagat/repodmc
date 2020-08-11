@@ -10,17 +10,17 @@
     "remote"
   ],
   "bugs": {
-    "url": "https://github.com/opendmc/dmc/issues"
+    "url": "https://github.com/openstf/stf/issues"
   },
   "license": "Apache-2.0",
   "author": {
     "name": "The Opendmc Project",
     "email": "contact@opendmc.io",
-    "url": "https://opendmc.io"
+    "url": "https://openstf.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/opendmc/dmc.git"
+    "url": "https://github.com/gattagat/repodmc.git"
   },
   "bin": {
     "dmc": "./bin/dmc"
@@ -169,6 +169,6 @@
   "preferGlobal": true,
   "collective": {
     "type": "opencollective",
-    "url": "https://opencollective.com/opendmc"
+    "url": "https://opencollective.com/openstf"
   }
 }
